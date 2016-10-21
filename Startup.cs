@@ -11,7 +11,7 @@ namespace HelloWeb
             app.Run(context =>
             {
 <<<<<<< HEAD
-                return context.Response.WriteAsync("Hello World new!!!!!!");
+                return context.Response.WriteAsync("Hello!!!!!!");
          
          });
 =======
