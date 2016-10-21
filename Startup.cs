@@ -10,9 +10,14 @@ namespace HelloWeb
         {
             app.Run(context =>
             {
-                return context.Response.WriteAsync("Hello World new!!!!!");
+<<<<<<< HEAD
+                return context.Response.WriteAsync("Hello World new!!!!!!");
          
          });
+=======
+                return context.Response.WriteAsync("Hello World!!!!!");
+            });
+>>>>>>> refs/heads/master
         }
     }
 }
